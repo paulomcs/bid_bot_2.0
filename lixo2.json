@@ -1,0 +1,47 @@
+{
+  "collection": "boreddonkeyclub",
+  "name": "Bored Donkey Club",
+  "description": "Welcome seekers! The Bored Donkey Club is here and you certainly don't want to miss out on this chance.Worry not since the Bored Donkey Club got your back. This is an all new NFT collection featuring donkey artworks that come in all kinds of unique designs. Numbers are running out and the Metaverse is drawing near let the donkeys start their journey.",
+  "image_url": "https://raw.seadn.io/files/8d9b438fea4d430be0172fd1a33600af.svg",
+  "banner_image_url": "https://raw.seadn.io/files/c5d3d20341b279281c3f82364c115e1c.jpg",
+  "owner": "0xaa969d8311c87e790fd2f1cf47174aae7fc545c2",
+  "safelist_status": "not_requested",
+  "category": "art",
+  "is_disabled": false,
+  "is_nsfw": false,
+  "trait_offers_enabled": true,
+  "collection_offers_enabled": true,
+  "opensea_url": "https://opensea.io/collection/boreddonkeyclub",
+  "project_url": "https://opensea.io/collection/boreddonkeyclub/drop",
+  "wiki_url": "",
+  "discord_url": "",
+  "telegram_url": "",
+  "twitter_username": "",
+  "instagram_username": "",
+  "contracts": [
+    {
+      "address": "0x65997e38eb826c04b65ac07e2be7d1cec240e509",
+      "chain": "matic"
+    }
+  ],
+  "editors": ["0xaa969d8311c87e790fd2f1cf47174aae7fc545c2"],
+  "fees": [
+    {
+      "fee": 2.5,
+      "recipient": "0x0000a26b00c1f0df003000390027140000faa719",
+      "required": true
+    },
+    {
+      "fee": 4.44,
+      "recipient": "0xaa969d8311c87e790fd2f1cf47174aae7fc545c2",
+      "required": false
+    }
+  ],
+  "rarity": {
+    "strategy_id": "openrarity",
+    "strategy_version": "0.7.5",
+    "calculated_at": "2023-11-03T23:12:01.142943",
+    "max_rank": 10000,
+    "tokens_scored": 10000
+  }
+}

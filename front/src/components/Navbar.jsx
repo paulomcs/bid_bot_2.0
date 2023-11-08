@@ -1,6 +1,9 @@
 import React from "react";
-import { IoIosArrowBack } from 'react-icons/io';
-import { RxHamburgerMenu } from 'react-icons/rx';
+import { GiReturnArrow } from 'react-icons/gi';
+import { GiRapidshareArrow } from 'react-icons/gi';
+
+
+
 import { useState } from "react";
 
 export default function Navbar(props) {
@@ -12,8 +15,8 @@ export default function Navbar(props) {
 
     return (
     <div className={className}>
-      <nav className={` bg-white shadow-md rounded-sm mb-[100px] h-screen`}>
-        <button onClick={handleHamb}>{isOpen?<IoIosArrowBack/>:<RxHamburgerMenu/>}</button>
+      <nav className={` bg-white shadow-md rounded-sm mb-[] h-screen`}>
+        <button onClick={handleHamb}>{isOpen?<GiReturnArrow/>:<GiRapidshareArrow/>}</button>
         
       </nav>
     </div>

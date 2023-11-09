@@ -9,7 +9,7 @@ import { useState } from "react";
 export default function Navbar(props) {
     const [isOpen, setIsOpen] = useState(false);
     const { className } = props;
-    const handleHamb = () => {
+    const handleHamb = () => { 
         setIsOpen(!isOpen);
     }
 
